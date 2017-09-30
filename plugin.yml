@@ -1,0 +1,12 @@
+main: com.billehbawb.pigkitpvp.Main
+version: 1.0
+name: EnchantGUI
+commands:
+  shopenchant:
+    description: Opens the enchant shop.
+  coins:
+    description: Shows your coin count.
+  givecoins:
+    description: Give players coins.
+  cosmetics:
+    description: Open the cosmetics menu.
