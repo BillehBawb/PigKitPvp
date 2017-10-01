@@ -27,7 +27,7 @@ public class OpenGUI implements CommandExecutor {
 			return false;
 		}
 		
-		Inventory enchantGui = Bukkit.createInventory(null, 27, ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
+		Inventory enchantGui = Bukkit.createInventory(null, 27, ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
 		player.openInventory(enchantGui);
 		
 		ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -38,17 +38,17 @@ public class OpenGUI implements CommandExecutor {
 		
 		ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 		ItemMeta book1Meta = book1.getItemMeta();
-		book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sword Enchants");
+		book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sword Enchants");
 		book1.setItemMeta(book1Meta);
 		
 		ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 		ItemMeta book2Meta = book2.getItemMeta();
-		book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Armor Enchants");
+		book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Armor Enchants");
 		book2.setItemMeta(book2Meta);
 		
 		ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 		ItemMeta book3Meta = book3.getItemMeta();
-		book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Bow Enchants");
+		book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Bow Enchants");
 		book3.setItemMeta(book3Meta);
 		
 		enchantGui.setItem(0, purpleStainedGlassPane);

@@ -1,11 +1,11 @@
 package com.billehbawb.pigkitpvp;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
-import org.bukkit.EntityEffect;
 import org.bukkit.Material;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LightningStrike;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -37,8 +37,10 @@ public class Death implements Listener {
 		}
 
 		Player killer = (Player) player.getKiller();
-		
+
 		resetInv(player);
+
+		NumberFormat format = new DecimalFormat("#0.00");
 
 		instance.getConfig().set("killstreak." + killer.getUniqueId(),
 				instance.getConfig().getInt("killstreak." + killer.getUniqueId()) + 1);
@@ -47,21 +49,22 @@ public class Death implements Listener {
 			instance.getConfig().set("coins." + killer.getUniqueId(),
 					instance.getConfig().getInt("coins." + killer.getUniqueId()) + 20);
 			killer.sendMessage(ChatColor.GOLD + "+20 coins! (Shutdown)");
-			event.setDeathMessage(
-					ChatColor.RED + player.getName() + " was shutdown by " + killer.getName() + "!");
+			event.setDeathMessage(ChatColor.RED + player.getName() + " was shutdown by " + killer.getName() + "! ("
+					+ format.format(killer.getHealth()) + " Health)");
 			instance.getConfig().set("killstreak." + player.getUniqueId(), 0);
 			instance.saveConfig();
 		}
 
 		instance.getConfig().set("killstreak." + player.getUniqueId(), 0);
 		instance.saveConfig();
-		
-		event.setDeathMessage(ChatColor.RED + player.getName() + " was killed by " + killer.getName() + "!");
-		
+
+		event.setDeathMessage(ChatColor.RED + player.getName() + " was killed by " + killer.getName() + "! ("
+				+ format.format(killer.getHealth()) + " Health)");
+
 		instance.getConfig().set("coins." + killer.getUniqueId(),
 				instance.getConfig().getInt("coins." + killer.getUniqueId()) + 15);
 		killer.sendMessage(ChatColor.GOLD + "+15 coins!");
-		
+
 		if (instance.getConfig().getInt("killstreak." + killer.getUniqueId()) >= 10) {
 			instance.getConfig().set("coins." + killer.getUniqueId(),
 					instance.getConfig().getInt("coins." + killer.getUniqueId()) + 17);
@@ -72,38 +75,38 @@ public class Death implements Listener {
 			Bukkit.getServer().broadcastMessage(ChatColor.RED + killer.getName() + " has a killstreak of "
 					+ instance.getConfig().getInt("killstreak." + killer.getUniqueId()));
 		}
-		
+
 		killer.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 5, 2));
 		killer.addPotionEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 3, 1));
-		
-		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("blood")){
+
+		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("blood")) {
 			final int stop = Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(instance, new Runnable() {
-                public void run() {
-                	int i = 0;
-                	while(i <= 30){
-                		player.playEffect(player.getEyeLocation(), Effect.COLOURED_DUST, 10);
-                	}
-                }
-            }, 0L, 0L);
+				public void run() {
+					int i = 0;
+					while (i <= 30) {
+						player.playEffect(player.getEyeLocation(), Effect.COLOURED_DUST, 10);
+					}
+				}
+			}, 0L, 0L);
 			Bukkit.getScheduler().cancelTask(stop);
 		}
-		
-		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("lightning")){
+
+		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("lightning")) {
 			player.getWorld().strikeLightningEffect(player.getLocation());
 		}
-		
-		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("hearts")){
+
+		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("hearts")) {
 			final int stop = Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(instance, new Runnable() {
-                public void run() {
-                	int i = 0;
-                	while(i <= 30){
-                		player.playEffect(player.getEyeLocation(), Effect.HEART, 10);
-                	}
-                }
-            }, 0L, 0L);
+				public void run() {
+					int i = 0;
+					while (i <= 30) {
+						player.playEffect(player.getEyeLocation(), Effect.HEART, 10);
+					}
+				}
+			}, 0L, 0L);
 			Bukkit.getScheduler().cancelTask(stop);
 		}
-		
+
 		return;
 	}
 

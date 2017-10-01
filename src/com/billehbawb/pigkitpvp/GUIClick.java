@@ -31,7 +31,7 @@ public class GUIClick implements Listener {
 			if (event.getInventory().getTitle().contains("Enchantment Shop (Main)")) {
 				if (event.getSlot() == 10) {
 					Inventory swordGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
 					player.openInventory(swordGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -48,17 +48,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					swordGui.setItem(0, purpleStainedGlassPane);
@@ -91,7 +91,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 13) {
 					Inventory armorGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
 					player.openInventory(armorGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -108,17 +108,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					armorGui.setItem(0, purpleStainedGlassPane);
@@ -151,7 +151,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 16) {
 					Inventory bowGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Bow)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Bow)");
 					player.openInventory(bowGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -168,12 +168,12 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Infinity");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Infinity");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Power");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Power");
 					book2.setItemMeta(book2Meta);
 
 					bowGui.setItem(0, purpleStainedGlassPane);
@@ -209,7 +209,7 @@ public class GUIClick implements Listener {
 			if (event.getInventory().getTitle().contains("Enchantment Shop (Sword)")) {
 				if (event.getSlot() == 10) {
 					Inventory sharpnessGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Sharpness)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Sharpness)");
 					player.openInventory(sharpnessGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -226,17 +226,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness 3");
 					book3.setItemMeta(book3Meta);
 
 					sharpnessGui.setItem(0, purpleStainedGlassPane);
@@ -269,7 +269,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 13) {
 					Inventory fireAspectGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (F Aspect)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (F Aspect)");
 					player.openInventory(fireAspectGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -286,12 +286,12 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect 2");
 					book2.setItemMeta(book2Meta);
 
 					fireAspectGui.setItem(0, purpleStainedGlassPane);
@@ -324,7 +324,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 16) {
 					Inventory unbreakingGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (SUnbreak)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (SUnbreak)");
 					player.openInventory(unbreakingGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -341,17 +341,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 3");
 					book3.setItemMeta(book3Meta);
 
 					unbreakingGui.setItem(0, purpleStainedGlassPane);
@@ -384,7 +384,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory enchantGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
 					player.openInventory(enchantGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -395,17 +395,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sword Enchants");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sword Enchants");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Armor Enchants");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Armor Enchants");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Bow Enchants");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Bow Enchants");
 					book3.setItemMeta(book3Meta);
 
 					enchantGui.setItem(0, purpleStainedGlassPane);
@@ -441,7 +441,7 @@ public class GUIClick implements Listener {
 			if (event.getInventory().getTitle().contains("Enchantment Shop (Armor)")) {
 				if (event.getSlot() == 10) {
 					Inventory protectionGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Prot)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Prot)");
 					player.openInventory(protectionGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -458,17 +458,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection 3");
 					book3.setItemMeta(book3Meta);
 
 					protectionGui.setItem(0, purpleStainedGlassPane);
@@ -501,7 +501,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 13) {
 					Inventory fireProtGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (F Prot)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (F Prot)");
 					player.openInventory(fireProtGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -518,17 +518,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protecton 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protecton 3");
 					book3.setItemMeta(book3Meta);
 
 					fireProtGui.setItem(0, purpleStainedGlassPane);
@@ -561,7 +561,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 16) {
 					Inventory unbreakingGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (A Unbreak)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (A Unbreak)");
 					player.openInventory(unbreakingGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -578,17 +578,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking 3");
 					book3.setItemMeta(book3Meta);
 
 					unbreakingGui.setItem(0, purpleStainedGlassPane);
@@ -621,7 +621,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory enchantGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
 					player.openInventory(enchantGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -632,17 +632,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sword Enchants");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sword Enchants");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Armor Enchants");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Armor Enchants");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Bow Enchants");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Bow Enchants");
 					book3.setItemMeta(book3Meta);
 
 					enchantGui.setItem(0, purpleStainedGlassPane);
@@ -696,7 +696,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getSlot() == 15) {
 					Inventory powerGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Power)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Power)");
 					player.openInventory(powerGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -713,17 +713,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Power 1");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Power 1");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Power 2");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Power 2");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Power 3");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Power 3");
 					book3.setItemMeta(book3Meta);
 
 					powerGui.setItem(0, purpleStainedGlassPane);
@@ -756,7 +756,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory enchantGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Main)");
 					player.openInventory(enchantGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -767,17 +767,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sword Enchants");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sword Enchants");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Armor Enchants");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Armor Enchants");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Bow Enchants");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Bow Enchants");
 					book3.setItemMeta(book3Meta);
 
 					enchantGui.setItem(0, purpleStainedGlassPane);
@@ -867,7 +867,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory swordGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
 					player.openInventory(swordGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -884,17 +884,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					swordGui.setItem(0, purpleStainedGlassPane);
@@ -966,7 +966,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory swordGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
 					player.openInventory(swordGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -983,17 +983,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					swordGui.setItem(0, purpleStainedGlassPane);
@@ -1083,7 +1083,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory swordGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Sword)");
 					player.openInventory(swordGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1100,17 +1100,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Sharpness");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Sharpness");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Aspect");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Aspect");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					swordGui.setItem(0, purpleStainedGlassPane);
@@ -1194,7 +1194,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory armorGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
 					player.openInventory(armorGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1211,17 +1211,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					armorGui.setItem(0, purpleStainedGlassPane);
@@ -1305,7 +1305,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory armorGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
 					player.openInventory(armorGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1322,17 +1322,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					armorGui.setItem(0, purpleStainedGlassPane);
@@ -1416,7 +1416,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory armorGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Armor)");
 					player.openInventory(armorGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1433,17 +1433,17 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Protection");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Protection");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Fire Protection");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Fire Protection");
 					book2.setItemMeta(book2Meta);
 
 					ItemStack book3 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book3Meta = book3.getItemMeta();
-					book3Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Unbreaking");
+					book3Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Unbreaking");
 					book3.setItemMeta(book3Meta);
 
 					armorGui.setItem(0, purpleStainedGlassPane);
@@ -1533,7 +1533,7 @@ public class GUIClick implements Listener {
 				}
 				if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Back")) {
 					Inventory bowGui = Bukkit.createInventory(null, 27,
-							ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Enchantment Shop (Bow)");
+							ChatColor.YELLOW + "" + ChatColor.BOLD + "Enchantment Shop (Bow)");
 					player.openInventory(bowGui);
 
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1550,12 +1550,12 @@ public class GUIClick implements Listener {
 
 					ItemStack book1 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book1Meta = book1.getItemMeta();
-					book1Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Infinity");
+					book1Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Infinity");
 					book1.setItemMeta(book1Meta);
 
 					ItemStack book2 = new ItemStack(Material.ENCHANTED_BOOK);
 					ItemMeta book2Meta = book2.getItemMeta();
-					book2Meta.setDisplayName(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Power");
+					book2Meta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Power");
 					book2.setItemMeta(book2Meta);
 
 					bowGui.setItem(0, purpleStainedGlassPane);
@@ -1595,7 +1595,7 @@ public class GUIClick implements Listener {
 						return;
 					}
 					
-					Inventory trailGui = Bukkit.createInventory(null, 27, ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Arrow Trails");
+					Inventory trailGui = Bukkit.createInventory(null, 27, ChatColor.YELLOW + "" + ChatColor.BOLD + "Arrow Trails");
 					player.openInventory(trailGui);
 					
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -1654,7 +1654,7 @@ public class GUIClick implements Listener {
 						return;
 					}
 					
-					Inventory effectGui = Bukkit.createInventory(null, 27, ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Kill Effects");
+					Inventory effectGui = Bukkit.createInventory(null, 27, ChatColor.YELLOW + "" + ChatColor.BOLD + "Kill Effects");
 					player.openInventory(effectGui);
 					
 					ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);

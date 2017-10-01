@@ -27,7 +27,7 @@ public class Cosmetics implements CommandExecutor {
 		}
 		
 		Inventory cosmeticsGui = Bukkit.createInventory(null, 27,
-				ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "Cosmetics");
+				ChatColor.YELLOW + "" + ChatColor.BOLD + "Cosmetics");
 		player.openInventory(cosmeticsGui);
 
 		ItemStack purpleStainedGlassPane = new ItemStack(Material.STAINED_GLASS_PANE);
@@ -38,12 +38,12 @@ public class Cosmetics implements CommandExecutor {
 
 		ItemStack trails = new ItemStack(Material.ARROW);
 		ItemMeta trailsMeta = trails.getItemMeta();
-		trailsMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Arrow Trails");
+		trailsMeta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Arrow Trails");
 		trails.setItemMeta(trailsMeta);
 
 		ItemStack effects = new ItemStack(Material.DIAMOND_SWORD);
 		ItemMeta effectsMeta = effects.getItemMeta();
-		effectsMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Kill Effects");
+		effectsMeta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Kill Effects");
 		effects.setItemMeta(effectsMeta);
 
 		cosmeticsGui.setItem(0, purpleStainedGlassPane);

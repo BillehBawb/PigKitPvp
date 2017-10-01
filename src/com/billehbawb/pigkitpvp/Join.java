@@ -29,7 +29,8 @@ public class Join implements Listener {
 			instance.saveConfig();
 		}
 		
-		event.setJoinMessage(ChatColor.RED + player.getName() + " has joined the brawl!");
+		event.setJoinMessage(ChatColor.RED + player.getName() + " has waged war!");
+		player.teleport(player.getWorld().getSpawnLocation());
 		
 		player.getInventory().clear();
 		player.getInventory().addItem(new ItemStack(Material.IRON_SWORD));

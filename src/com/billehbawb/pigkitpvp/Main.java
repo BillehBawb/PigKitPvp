@@ -19,6 +19,7 @@ public class Main extends JavaPlugin {
 		Bukkit.getPluginManager().registerEvents(new InventoryClick(), this);
 		Bukkit.getPluginManager().registerEvents(new Join(this), this);
 		Bukkit.getPluginManager().registerEvents(new ArrowTrail(this), this);
+		Bukkit.getPluginManager().registerEvents(new Leave(), this);
 		getCommand("shopenchant").setExecutor(new OpenGUI());
 		getCommand("coins").setExecutor(new Coins(this));
 		getCommand("givecoins").setExecutor(new GiveCoins(this));
