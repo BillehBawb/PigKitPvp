@@ -76,8 +76,8 @@ public class Death implements Listener {
 					+ instance.getConfig().getInt("killstreak." + killer.getUniqueId()));
 		}
 
-		killer.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 5, 2));
-		killer.addPotionEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 3, 1));
+		killer.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 5*20, 2));
+		killer.addPotionEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 3*20, 1));
 
 		if (instance.getConfig().getString(killer.getUniqueId() + ".effect").equalsIgnoreCase("blood")) {
 			final int stop = Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(instance, new Runnable() {

@@ -6,6 +6,7 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.event.entity.ProjectileLaunchEvent;
 
 public class ArrowTrail implements Listener {
@@ -45,6 +46,14 @@ public class ArrowTrail implements Listener {
                     }
                 }
             }, 0L, 0L);
+		}
+	}
+	
+	@EventHandler
+	public void onProjectileHit(ProjectileHitEvent event){
+		
+		if (event.getEntityType() == EntityType.ARROW && event.getEntity().getShooter() instanceof Player) {
+			
 		}
 	}
 }
